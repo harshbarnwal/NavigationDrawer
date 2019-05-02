@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Navigation Drawer</string>
+    <string name="opendrawer">Open Navigation Drawer</string>
+    <string name="closedrawer">Close Navigation Drawer</string>
+    <string name="website_address">tech4use.com</string>
+    <string name="website_name">tech4use</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+    <string-array name="socialmedia">
+
+        <item>Instagram</item>
+        <item>WhatsApp</item>
+        <item>Facebook</item>
+        <item>Twitter</item>
+        <item>YouTube</item>
+        <item>Hangout</item>
+
+    </string-array>
+</resources>

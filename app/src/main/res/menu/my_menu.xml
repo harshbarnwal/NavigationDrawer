@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--making this menu a drawer menu-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!--creating group for only selectable item-->
+    <group android:checkableBehavior="single">
+        <!--creating items under this group-->
+        <item android:id="@+id/nav_message"
+            android:icon="@drawable/ic_message"
+            android:title="Message"/>
+        <item android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_chat"
+            android:title="Chat"/>
+        <item android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Profile"/>
+    </group>
+
+    <!--creating other clickable items-->
+    <item android:title="Communicate">
+        <!--creating other menu with items-->
+        <menu>
+            <item android:id="@+id/nav_send"
+                android:icon="@drawable/ic_send"
+                android:title="Send"/>
+            <item android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="Share"/>
+        </menu>
+    </item>
+
+</menu>
